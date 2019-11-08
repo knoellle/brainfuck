@@ -1,0 +1,11 @@
+push 3
+push 7
+mult
+mult 4
+add 13
+print
+add 1
+print
+add 1
+push 10
+print 2
