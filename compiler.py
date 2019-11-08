@@ -86,7 +86,7 @@ def compile(input, args):
             n = 0
             if len(segments) == 2:
                 n = int(segments[1]) - 1
-            program += "<" * n + "." + ".>" * n
+            program += "<" * n + "." + ">." * n
         if args.debug:
             program += "\n"
     return program
