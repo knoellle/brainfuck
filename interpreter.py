@@ -34,9 +34,9 @@ def main():
             else:
                 memory.insert(0, 0)
         if c == "+":
-            memory[pointer] = (memory[pointer] + 1) % 255
+            memory[pointer] = (memory[pointer] + 1) % 256
         if c == "-":
-            memory[pointer] = (memory[pointer] - 1) % 255
+            memory[pointer] = (memory[pointer] - 1) % 256
         if c == ".":
             output += chr(memory[pointer])
             print(chr(memory[pointer]), end="")
